@@ -1,0 +1,47 @@
+﻿<Window x:Class="hw6_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hw6_5"
+        mc:Ignorable="d"
+        Title="Руднев Даниил Юрьевич. УТС-21. Вариант 5" Height="480" Width="800">
+    <Grid>
+        <Label Content="Круги" HorizontalAlignment="Left" Margin="33,20,0,418" Width="610"/>
+        <Label Content="N" HorizontalAlignment="Left" Margin="33,51,0,0" VerticalAlignment="Top" Width="40"/>
+        <Label Content="Радиус" HorizontalAlignment="Left" Margin="78,51,0,0" VerticalAlignment="Top" Width="184"/>
+        <Label Content="Длинна окружности" HorizontalAlignment="Left" Margin="262,51,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label Content="Площадь поверхности" HorizontalAlignment="Left" Margin="457,51,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label x:Name="CircleNumbeLabel" Content="1" HorizontalAlignment="Left" Margin="33,51,0,0" VerticalAlignment="Top" Width="40" Height="132"/>
+        <Label x:Name="CircleRadiusLabel" Content="2" HorizontalAlignment="Left" Margin="78,51,0,0" VerticalAlignment="Top" Width="184" Height="132"/>
+        <Label x:Name="CircleLengthLabel" Content="3" HorizontalAlignment="Left" Margin="262,51,0,0" VerticalAlignment="Top" Width="190" Height="132"/>
+        <Label x:Name="CircleSquareLabel" Content="4" HorizontalAlignment="Left" Margin="457,51,0,0" VerticalAlignment="Top" Width="190" Height="132"/>
+        <Label Content="Прямоугольники" HorizontalAlignment="Left" Margin="31,188,0,0" VerticalAlignment="Top" Width="592" Height="23"/>
+        <Label Content="N" HorizontalAlignment="Left" Margin="31,210,0,0" VerticalAlignment="Top" Width="39" Height="29"/>
+        <Label Content="Длинна" HorizontalAlignment="Left" Margin="75,210,0,0" VerticalAlignment="Top" Width="110" Height="29"/>
+        <Label Content="Периметр" HorizontalAlignment="Left" Margin="306,210,0,0" VerticalAlignment="Top" Width="110" Height="29"/>
+        <Label Content="Площадь" HorizontalAlignment="Left" Margin="421,210,0,0" VerticalAlignment="Top" Width="111" Height="29"/>
+        <Label x:Name="RectangleNumbeLabel" Content="1" HorizontalAlignment="Left" Margin="31,212,0,0" VerticalAlignment="Top" Width="39" Height="132"/>
+        <Label x:Name="RectangleLengthLabel" Content="2" HorizontalAlignment="Left" Margin="75,212,0,0" VerticalAlignment="Top" Width="110" Height="132"/>
+        <Label x:Name="RectanglePerimetrLabel" Content="3" HorizontalAlignment="Left" Margin="306,212,0,0" VerticalAlignment="Top" Width="110" Height="132"/>
+        <Label x:Name="RectangleSquareLabel" Content="4" HorizontalAlignment="Left" Margin="421,212,0,0" VerticalAlignment="Top" Width="111" Height="132"/>
+        <Label Content="Ширина" HorizontalAlignment="Left" Margin="190,210,0,0" VerticalAlignment="Top" Width="111" Height="29"/>
+        <Label x:Name="RectangleWidthLabel" Content="5" HorizontalAlignment="Left" Margin="190,212,0,0" VerticalAlignment="Top" Width="111" Height="132"/>
+        <Label Content="Прямоугольники" HorizontalAlignment="Left" Margin="28,351,0,0" VerticalAlignment="Top" Width="610" Height="25"/>
+        <Label Content="N" HorizontalAlignment="Left" Margin="24,376,0,0" VerticalAlignment="Top" Width="40" Height="27"/>
+        <Label Content="Основание 1" HorizontalAlignment="Left" Margin="68,376,0,0" VerticalAlignment="Top" Width="92" Height="27"/>
+        <Label Content="Периметр" HorizontalAlignment="Left" Margin="414,376,0,0" VerticalAlignment="Top" Width="114" Height="27"/>
+        <Label Content="Площадь" HorizontalAlignment="Left" Margin="320,376,0,0" VerticalAlignment="Top" Width="88" Height="27"/>
+        <Label x:Name="TrapezoidNumbeLabel" Content="1" HorizontalAlignment="Left" Margin="24,381,0,0" VerticalAlignment="Top" Width="40" Height="150"/>
+        <Label x:Name="TrapezoidBase1Label" Content="2" HorizontalAlignment="Left" Margin="68,381,0,0" VerticalAlignment="Top" Width="92" Height="150"/>
+        <Label x:Name="TrapezoidPerimetrLabel" Content="3" HorizontalAlignment="Left" Margin="414,381,0,0" VerticalAlignment="Top" Width="114" Height="150"/>
+        <Label x:Name="TrapezoidSquareLabel" Content="4" HorizontalAlignment="Left" Margin="320,381,0,0" VerticalAlignment="Top" Width="88" Height="150"/>
+        <Label Content="Основание 2" HorizontalAlignment="Left" Margin="160,376,0,0" VerticalAlignment="Top" Width="84" Height="27"/>
+        <Label x:Name="TrapezoidBase2Label" Content="5" HorizontalAlignment="Left" Margin="160,381,0,0" VerticalAlignment="Top" Width="84" Height="150"/>
+        <Label Content="Высота" HorizontalAlignment="Left" Margin="246,376,0,0" VerticalAlignment="Top" Width="68" Height="27"/>
+        <Label x:Name="TrapezoidHeightLabel" Content="5" HorizontalAlignment="Left" Margin="246,381,0,0" VerticalAlignment="Top" Width="68" Height="150"/>
+        <Button x:Name="AddingButton" Content="Добавить" HorizontalAlignment="Left" Margin="621,206,0,0" VerticalAlignment="Top" Width="146" Height="26" Click="AddingButton_Click"/>
+        <Button x:Name="RemovingButton" Content="Удалить" HorizontalAlignment="Left" Margin="621,266,0,0" VerticalAlignment="Top" Width="146" Height="24" Click="RemovingButton_Click"/>
+
+    </Grid>
+</Window>
